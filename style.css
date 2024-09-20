@@ -200,3 +200,19 @@ body {
     font-family: "Ubuntu", sans-serif;
     font-size: 40px;
 }
+
+@media screen and (max-width: 800px) {
+     .cloud1, .cloud2 {
+        display: none;
+    }
+
+    .visejez, .program, .pozdrav {
+        font-size: 1rem;
+        width: 75%;
+    }
+
+    .mountain {
+        height: 250px;
+    }
+    
+}
