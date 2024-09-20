@@ -3,6 +3,9 @@
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,69 +13,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zvonko Dujmović</title>
-    <link rel="stylesheet" href="static/css/style.css" type="text/css">
-    <link rel="icon" href="static/img/favicon.ico">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </head>
 <body>
-    <div class="top">
-      <div style="height: 100px;"></div>
-        <h1 class="name">Zvonko Dujmović</h1>
-        <p class="desc"><em>Sui generis.</em></p>
-        <img id="cloud1" src="static/img/cloud.png" alt="cloud-img">
-        <img id="cloud2" src="static/img/cloud.png" alt="cloud-img">
-        <div id="mountain">
-          <img id="mountain" src="static/img/mountain.png" alt="mountain-img">
-        </div>
-    </div>
-    <hr>
-    <div class="middle-container">
+  <div class="top-navbar">
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href=""><img class="navbaricon" src="logo.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto">
+            <li class="navbar-item">
+              <a class="link nav-link" href="index.html">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a class="link nav-link" href="#">Contact</a>
+            </li>
+            <li class="navbar-item">
+              <a class="link nav-link" href="#">About</a>
+            </li>
+            <li class="navbar-item">
+              <a class="link nav-link disabled" href="#">Coming soon</a>
+            </li>
+          </ul>
+      </div>
+   </nav>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="top">
+          <img class="cloud1" src="cloud.png" alt="cloud-img">
+          <h1 class="name">Zvonko Dujmović</h1>
+          <em><p class="desc">Sui generis.</p></em>
+          <img class="cloud2" src="cloud.png" alt="cloud-img">
+          <br>
+          <img class="mountain" src="mountain.png" alt="mountain-img">
+      </div>
+      <div class="middle-container">
         <div class="profile">
-          <img class="zvnk-img" src="static/img/zvoduj-removebg-modified.png" alt="slika-mene">
-          <h1>Pozdrav</h1>
-          <p class="pozdrav"><em>Ja sam Zvonko Dujmović. Dolazim iz maloga naselja u blizini Mostara. <br> Volim programirati i čitati Bibliju.</em></p>
+          <img class="zvnk-img" src="zvoduj-removebg-modified.png" alt="slika-mene">
+          <em><h2 class="greeting">Pozdrav</h2></em>
+          <em><p class="pozdrav">Ja sam Zvonko Dujmović. Dolazim iz maloga naselja u blizini Mostara. Volim programirati i čitati Bibliju.</p></em>
         </div>
-    <hr>
         <div class="skills">
-            <h1 class="vjest">Moje Vještine</h1>
-            <div class="skill-row">
-                <h2><em>Programiranje</em></h2>
-                <p><em>Prije nekog vremena sam počeo učiti programiranje, učeći osnove Python-a, sada učim HTML i CSS.<br> Još učim ali sam pouzdan da ću ubrzo naučiti i pomagati ljudima kojima trebaju moje usluge.</em></p>
-                <br>
-                <img class="igra" src="static/img/gameScreenshot.png" alt="Prva igrica moja 'FlyingZvonimir'">
-                <p><em>Moja prva igrica <strong>FlyingZvonimir</strong></em></p>
-            </div>
+          <em><h2 class="vjest">Moje Vještine</h2></em>
           <div class="skill-row">
-            <h2><em>Višejezičnost</em></h2>
-            <p class="visejez"><em>Uz moj materni jezik (Hrvatski), tečno govorim engleski i njemački jezik. Njemački sam svladao dok sam živio u Njemačkoj punih osam godina,<br> a engleski sam svladao u ranoj dobi i u školi rafiniram i usavršavam svoje znanje. Ovo mi omogućuje da razumijem mnogo više ljudi<br>i daruje mi mogućnostputovati u više zemalja i regija. </em></p>
+            <em><h3>Programiranje</h3></em>
+            <em><p class="program">Prije pola godine sam počeo učiti malo, učeći osnove Pythona. Sada učim HTML i CSS. Još učim ali sam pouzdan da ću ubrzo naučiti i pomagati ljudima kojima trebaju moje usluge.</p></em>
+            <img class="igra" src="Snimka zaslona 2024-08-31 162209.png" alt="Prva igrica moja 'FlyingZvonimir'">
+            <em><p>Moja prva igrica <strong>FlyingZvonimir</strong></p></em>
           </div>
-          <hr>
-        <div class="hobby">
-            <h1 class="hobby">Moji hobiji.</h1>
-            
-            <div class="hobby-row">
-              <h2><em>Treniranje</em></h2>
-              <p><em>Treniranje mi igra vrlo važnu ulogu u mome životu. Ne samo da se osječam jače, bolje i samopouzdanije, nego stječem i poboljšavam temeljne odlike, koje su važne za uspjeh.<br> To su disciplina, strpljenje, trud i postojanost.</em></p>
-            <img class="zvnk-gym" src="static/img/teretana-modified.png" alt="Slika-mene-u-teretani">
+          <div class="skill-row">
+            <em><h3>Višejezičnost</h3></em>
+            <em><p class="visejez">Uz moj materni jezik (Hrvatski), tečno govorim engleski i njemački jezik. Njemački sam svladao dok sam živio u Njemačkoj punih osam godina, a engleski sam svladao u ranoj dobi i u školi rafiniram i usavršavam svoje znanje. Ovo mi omogućuje da razumijem mnogo više ljudi i daruje mi mogućnost putovati u više zemalja i regija. </p></em>
+          </div>
         </div>
-            <div class="hobby-row">
-              <img class="" src="" alt="">
-              <h2><em>Čitanje</em></h2>
-              <p><em>Volim pola sata svaki dan čitati Bibliju. Iz Biblije sam naučio puno toga,<br> zato smatram da su knjige odličan izvor znanja i svatko bi trebao čitati.<br>Volim i čitati takozvane "self help" knjige, jer se iz njih može izvuči mnoštvo znanja. <br> Vrijedi čitati, ali i steknuto znanje treba iskorititi u praksi.</em></p>
-            </div>
-        </div>
-    <hr class="endhr">
         <div class="contact-me">
-          <h1>Kontakt</h1>
-          <h2>Ako imate pitanja ili ako imate želju poslati mi poruku, kontaktirajte me <a class="btn" href="mailto:zvonkodujmovic07@email.com">ovdje.</a></h2>
+          <em><h2 class="contact">Kontakt</h2></em>
+          <h3>Ako imate pitanja ili ako imate želju poslati mi poruku, kontaktirajte me <a style="text-decoration: none; color: #9b9b9b;"href="mailto:zvonkodujmovic07@email.com">ovdje.</a></h3>
         </div>
       </div>
-      <footer class="bottom-container">
-        <a class="footer-link" href="https://www.instagram.com/dujma_7/">Instagram</a>
-        <a class="footer-link" href="https://www.chess.com/member/kraljzvonkodrugi">Chess.com</a>
-        <p class="copyright">© Zvonko Dujmović</p>
-      </footer>
-        </div>
+    </div>
+  </div>
+
+  <div class="bottom-container">
+      <a class="footer-link" href="https://www.instagram.com/dujma_7/">Instagram</a>
+      <a class="footer-link" href="https://www.chess.com/member/kraljzvonkodrugi">Chess.com</a>
+      <p class="copyright">© Zvonko Dujmović 2024</p>
+  </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 </html>

@@ -1,0 +1,202 @@
+html {
+    width: 100%;
+}
+
+
+h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: Bold;
+    padding-bottom: 50px;
+}
+
+.greeting {
+    font-size: 40px;
+}
+
+h3 {
+    font-family: "Ubuntu", sans-serif;
+    padding-bottom: 30px;
+}
+
+
+
+.top-navbar {
+    z-index: 10;
+    background-color: #EFE3DA;
+    padding: 10px 30px;
+    position: fixed;
+    width: 100%;
+}
+
+.navbaricon {
+    height: 75px;
+}
+
+.cloud1, .cloud2 {
+    position: relative;
+}
+
+.cloud1 {
+    top: 150px;
+    left: 450px;
+    height: 60px;
+}
+
+.cloud2 {
+    height: 60px;
+    right: 400px;
+    bottom: 70px;
+}
+
+.link {
+    padding: 0 20px;
+}
+
+.mountain {
+    margin: 0 auto;
+    position: relative;
+}
+
+p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.profile {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+body {
+    background-color: #FFF8F3;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    line-height: 125%;
+}
+
+
+.name {
+    text-align: center;
+    font-family: "Dancing Script",  serif;
+    color: #244b75;
+    margin-bottom: 0px;
+    font-weight: 600;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-size: 5.625rem;
+}
+
+.desc {
+    font-family: "Dancing Script",  serif;
+    font-size: 2.5rem;
+    margin-top: 20px;
+
+}
+
+.top {
+    padding-top: 100px;
+    text-align: center;
+    background-color: #FFF8F3;
+    height: 800px;
+}
+
+
+.middle-container {
+    font-family: "Montserrat", sans-serif;
+    padding: 150px 0 20px 0;
+    text-align: center;
+    background-color: #FFF8F3;
+}
+
+.skills {
+    padding-top: 20px;
+    margin: 0px auto;
+}
+.skill-row {
+    margin: 50px auto;
+    
+}
+
+.visejez, .program {
+    line-height: 1.5;
+    width: 50%;
+    font-size: 20px;
+}
+
+.vjest {
+    font-size: 40px;
+}
+
+.zvnk-img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 300px;
+    border-style: solid;
+    border-color: #fcefe6;
+    border-radius: 100%
+}
+
+
+.bottom-container {
+    background-color: #EFE3DA;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+
+.pozdrav {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px, auto, 20px;
+    width: 50%;
+}
+
+.igra {
+    margin: 20px auto;
+    height: 200px;
+    border-style: solid;
+    border-color: #f3e2d6;
+}
+
+
+
+.zvnk-gym {
+    border-style: solid;
+    border-radius: 100%;
+    height: 300px;
+    border-color: #fcefe6;
+}
+
+.hobby {
+    margin: 40px auto;
+    width: 50%;
+}
+
+.footer-link {
+    position: relative;
+    top: 20px;
+    padding: 0 10px;
+    font-size: 1.15rem;
+    color: grey;
+    text-decoration: none;
+
+}
+.copyright {
+    margin-bottom: 20px;
+    position: relative;
+    top: 30px;
+}
+
+.contact-me {
+    padding: px;
+
+}
+
+.contact {
+    padding-top: 50px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 40px;
+}
