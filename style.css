@@ -215,7 +215,9 @@ body {
 @media screen and (max-width: 1100px) {
     .cloud1, .cloud2 {
         display: none;
-        {
-{
-        
-    
+    }
+    .mountain {
+        position: relative;
+        top: 96px;
+    }
+}
