@@ -202,7 +202,7 @@ body {
 }
 
 @media screen and (max-width: 800px) {
-     .mountain, .cloud1, .cloud2 {
+    .mountain, .cloud1, .cloud2 {
         display: none;
     }
 
